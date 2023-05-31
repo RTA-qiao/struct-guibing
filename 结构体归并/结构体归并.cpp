@@ -1,5 +1,7 @@
 /*
 	结构体归并函数 不知道能不能写出来
+
+	结构体的归并函数  思路 大概是对的 代码需要优化
 	竟然写出来了
 */
 #include <iostream>
@@ -114,6 +116,7 @@ void guibing(struct student* head, struct student* tmparr, int left, int mid, in
 		gaibianzhi(head, left, tmparr[left].age);
 		left++;
 	}
+
 }
 
 int shuchu(struct student* head, int n) {
